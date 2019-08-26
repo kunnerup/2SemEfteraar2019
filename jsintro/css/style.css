@@ -1,0 +1,45 @@
+/**
+ * file: style.css
+ * purpose: styles, animation etc
+ * further development: meyer reset perhaps?
+ **/
+body {
+  background-image: url(../images/grs.jpg);
+}
+
+img {
+  width: 200px;
+  height: 250px;
+padding: 15px;
+
+}
+
+h1{
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 3px 3px white;
+}
+
+p {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  text-shadow: 3px 3px white;
+}
+
+#cent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: #d5e0d8;
+}
+
+#content {
+  text-align: center;
+  width: 100%;
+  height: 35px;
+  background-color: #d5e0d8;
+}
